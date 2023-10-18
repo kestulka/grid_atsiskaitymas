@@ -1,0 +1,113 @@
+.div-wrap{
+    display: flex;
+}
+
+.time-container{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.time-grid {
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    gap: 5px;
+}
+
+.time-item {
+    background-color: #cddae3;
+    border-radius: 5%;
+    height: 7vh;
+    margin-bottom: 5px;
+}
+
+.time-item-empty{
+    background-color: #cddae3;
+    border-radius: 5%;
+    height: 7vh;
+    gap: 5px;
+}
+
+.stage-container{
+    flex: 1;
+}
+
+.stage-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    height: 100%;
+}
+
+.stage-item{
+    background-color: #cddae3;
+    border-radius: 5%;
+    height: 7vh;
+    width: 100%;
+}
+.talk1{
+    background-color: lightskyblue;
+    border-radius: 5%;
+    grid-area: 2 / 1 / 5 / 3;
+}
+.break1{
+    background-color: #cddae3;
+    border-radius: 5%;
+    grid-area: 5 / 1 / 5 / 3;
+}
+.talk4{
+    background-color: limegreen;
+    border-radius: 5%;
+}
+.talk2_3{
+    background-color: lightskyblue;
+    border-radius: 5%;
+}
+.talk7{
+    background-color: lightskyblue;
+    border-radius: 5%;
+}
+.talk8{
+    background-color: limegreen;
+    border-radius: 5%;
+}
+.talk5{
+    background-color: crimson;
+    border-radius: 5%;
+}
+.break2{
+    background-color: #cddae3;
+    border-radius: 5%;
+}
+.talk6{
+    background-color: crimson;
+    border-radius: 5%;
+}
+.talk9{
+    background-color: yellow;
+    border-radius: 5%;
+}
+.talk10{
+    background-color: yellow;
+    border-radius: 5%;
+}
+.break3{
+    background-color: #cddae3;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
